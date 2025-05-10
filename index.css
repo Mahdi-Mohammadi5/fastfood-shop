@@ -1,0 +1,121 @@
+body{
+    direction: rtl;
+    background-color: rgb(49, 46, 46); 
+    margin: 0px;
+}
+header{
+    background-color: goldenrod;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+}
+main{
+    background-color: mediumturquoise;
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+}
+footer{
+    background-color: chocolate;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    color: aliceblue;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer div{
+    background-color: rgb(139, 84, 13);
+    margin: 5px 5px;
+    border-radius: 10px;  
+}
+aside,section{
+    background-color: gold;
+    margin: 5px;
+    border-radius: 10px;
+}
+aside{
+    text-align: center;
+    flex-grow: 60;
+}
+section{
+    text-align: center;
+    flex-grow: 40;
+}
+#img1,#img2,#img3,#img4,#img5{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+.item_menu{
+    background-color: black;
+    text-align: center;
+    font-family:tahoma;
+    padding: 3px;
+    border-radius: 7px;
+    box-shadow: 4px 5px 5px rgb(0, 255, 170);
+    border: 1;
+    border-style: solid;
+    border-color: rgb(0, 130, 255);
+    margin: 5px;
+    width: 100px;
+}
+a{
+    color: rgb(247, 255, 19);
+    text-decoration: none;
+}
+.mimage{
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+.item_menu:hover{
+    background-color: rgb(247, 255, 19);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+ }
+ img.avatar{
+    width: 30%;
+}
+.sb{
+    padding: 3px;
+    text-align: center;
+    font-size: 50px;
+}
+footer div:nth-child(1){
+    padding: 0px 20px;
+    flex-grow: 1;
+}
+footer div:nth-child(2){
+    padding: 0px 20px;
+    flex-grow: 4;
+}
+footer div:nth-child(3){
+    padding: 0px 20px;
+    flex-grow: 1;
+}
